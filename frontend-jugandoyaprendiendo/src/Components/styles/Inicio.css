@@ -1,0 +1,32 @@
+.Inicio {
+  margin:0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  
+  }
+
+  
+
+nav ul li a {
+  float:left;
+  list-style:none;
+  margin: 10px;
+  line-height:10px; 
+  color: black;
+}
+
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+  img.izquierda{
+    float: center;
+  }
+
+  img.derecha{
+    float:  center;
+  }

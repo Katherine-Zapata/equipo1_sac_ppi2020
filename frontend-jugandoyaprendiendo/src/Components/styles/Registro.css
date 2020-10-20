@@ -1,0 +1,14 @@
+div registro{
+    font-family: 'Open Sans', sans-serif;
+    background-color:red;
+    position:relative;
+    background:blanchedalmond;
+    display:block;
+    width:500px;
+    height:70px;
+    margin:10px auto;
+    overflow:hidden;
+    font-size: 20%;
+
+  }
+  
