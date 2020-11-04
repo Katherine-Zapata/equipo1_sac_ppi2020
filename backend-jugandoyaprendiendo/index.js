@@ -15,5 +15,5 @@ app.get("/", function (req, res) {
 })
 
 app.listen(8030, function () {
-    console.log("El servidor esta corriedno en un puerto 8080")
+    console.log("El servidor esta corriedno en un puerto 8030")
 })
