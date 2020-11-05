@@ -13,7 +13,7 @@ class Registro extends React.Component {
                     <img src="https://image.flaticon.com/icons/png/512/13/13732.png" width="70" height="70"></img>
                     <br/>
                     <br/>
-                    <form>
+                    <form action="Login">
                         <label for="Nombre">Nombre : (Campo Obligatorio)</label>
                         <br />
                         <input type="text" name="Nombre" id="Nombre" rendonly="true" />
@@ -36,11 +36,6 @@ class Registro extends React.Component {
                         <br /><br />
                         <input type="submit" value="Sing Up" />
                     </form>
-                    <br/>
-                    <br/>
-                    <a class="header__link" href="Login">Login</a>
-                    <br/>
-                    <br/>
                 </div>
             </div>
             
