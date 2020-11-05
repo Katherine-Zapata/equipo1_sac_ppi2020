@@ -27,7 +27,6 @@ class Inicio extends React.Component {
                         <li>
                             <a class="header__link" href="Ajustes">Ajustes</a>
                         </li>
-
                     </ul>
                 </nav>
 

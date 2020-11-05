@@ -12,7 +12,7 @@ class Login extends React.Component {
                     <br/>
                     <h3>Iniciar sesión</h3>
                     <br/>
-                    <img src="https://cdn.icon-icons.com/icons2/67/PNG/512/user_13230.png" width="100" height="100"></img>
+                    <img src="https://img2.freepng.es/20180331/yjw/kisspng-computer-icons-user-profile-login-user-5abf1426c55235.9485280815224719748082.jpg" width="120" height="100"></img>
                     <br/>
                     <br/>
                     <form>
