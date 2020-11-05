@@ -11,9 +11,6 @@ class Explicación extends React.Component {
                     <nav>
                         <ul>
                             <li>
-                                <a class="header__link" href="Menu">Menú</a>
-                            </li>
-                            <li>
                                 <a class="header__link" href="Inicio">Inicio</a>
                             </li>
                             <li> 

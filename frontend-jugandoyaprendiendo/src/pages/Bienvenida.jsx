@@ -23,8 +23,12 @@ class Bienvenida extends React.Component {
                     <br />
                     <br />
                     <a class="header__link" href="Login">Login</a>
-
-
+                    <br/>
+                    <br/>
+                    <a class="header__link" href="Registro1">Registarse1</a>
+                    <br />
+                    <br />
+                    <a class="header__link" href="Login1">Login1</a>
                 </div>
             </div>
         )

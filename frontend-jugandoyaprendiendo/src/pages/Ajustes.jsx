@@ -15,9 +15,6 @@ class Ajustes extends React.Component {
                                 <a class="header__link" href="Explicación">Explicación</a>
                             </li>
                             <li>
-                                <a class="header__link" href="Progreso">Progreso</a>
-                            </li>
-                            <li>
                                 <a class="header__link" href="Ayuda">Ayuda</a>
                             </li>
                             <li>

@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-
-class Menu1Pages extends React.Component {
+class Login1Pages extends React.Component {
     render() {
         return (
             <div>
@@ -15,8 +14,8 @@ class Menu1Pages extends React.Component {
 
                 <div className="Badges__container">
                     <div className="Badges__buttons">
-                        <Link to="/menu1" className="btn btn-primary">
-                            Menú #1
+                        <Link to="/login1" className="btn btn-primary">
+                            Login Estud...
               </Link>
                     </div>
 
@@ -27,4 +26,4 @@ class Menu1Pages extends React.Component {
     }
 }
 
-export default Menu1Pages;
+export default Login1Pages;

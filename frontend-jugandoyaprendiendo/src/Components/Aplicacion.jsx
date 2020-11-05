@@ -2,8 +2,6 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import InsigniaPages from '../pages/InsigniaPages';
 import InsigniaNueva from '../pages/InsigniaNueva';
-import MenuPages from '../pages/MenuPages';
-import Menu from '../pages/Menu';
 import Layout from "./Layout";
 import InicioPages from '../pages/InicioPages';
 import Inicio from '../pages/Inicio';
@@ -15,6 +13,8 @@ import Bienvenida from '../pages/Bienvenida';
 import BienvenidaPages from '../pages/BienvenidaPages';
 import RegistroPages from '../pages/RegistroPages';
 import Registro from '../pages/Registro';
+import Registro1Pages from '../pages/Registro1Pages';
+import Registro1 from '../pages/Registro1';
 import DespedidaPages from '../pages/DespedidaPages';
 import Despedida from '../pages/Despedida';
 import Preguntas1Pages from '../pages/Preguntas1Pages';
@@ -31,6 +31,8 @@ import Quiz3Pages from '../pages/Quiz3Pages';
 import Quiz3 from '../pages/Quiz3';
 import LoginPages from '../pages/LoginPages';
 import Login from '../pages/Login';
+import Login1Pages from '../pages/Login1Pages';
+import Login1 from '../pages/Login1';
 import AyudaPages from '../pages/AyudaPages';
 import Ayuda from '../pages/Ayuda';
 import Ajustes1Pages from '../pages/Ajustes1Pages';
@@ -39,8 +41,6 @@ import Ajustes2Pages from '../pages/Ajustes2Pges';
 import Ajustes2 from '../pages/Ajustes2';
 import DescargaPages from '../pages/DescargarPages';
 import Descarga from '../pages/Descarga';
-import Menu1Pages from '../pages/Menu1pages';
-import Menu1 from '../pages/Menu1';
 import ProfesoresPages from '../pages/ProfesoresPages';
 import Profesores from '../pages/Profesores';
 import EstudiantesPages from '../pages/EstudiantesPages';
@@ -53,8 +53,6 @@ function Aplicacion() {
         <Switch>
           <Route exact path='/' component={InsigniaPages} />
           <Route exact path='/insignia' component={InsigniaNueva} />
-          <Route exact path='/menupages' component={MenuPages} />
-          <Route exact path='/menu' component={Menu} />
           <Route exact path='/iniciopages' component={InicioPages} />
           <Route exact path='/inicio' component={Inicio} />
           <Route exact path='/explicacionpages' component={ExplicacionPages} />
@@ -69,6 +67,8 @@ function Aplicacion() {
           <Route exact path='/bienvenida' component={Bienvenida} />
           <Route exact path='/registropages' component={RegistroPages} />
           <Route exact path='/registro' component={Registro} />
+           <Route exact path='/registro1pages' component={Registro1Pages} />
+          <Route exact path='/registro1' component={Registro1} />
           <Route exact path='/despedidapages' component={DespedidaPages} />
           <Route exact path='/despedida' component={Despedida} />
           <Route exact path='/preguntas1pages' component={Preguntas1Pages} />
@@ -89,12 +89,12 @@ function Aplicacion() {
           <Route exact path='/ayuda' component={Ayuda} />
           <Route exact path='/descargapages' component={DescargaPages}/>
           <Route exact path='/descarga' component={Descarga} />
-          <Route exact path='/menu1pages' component={Menu1Pages}/>
-          <Route exact path='/menu1' component={Menu1} />
           <Route exact path='/profesorespages' component={ProfesoresPages}/>
           <Route exact path='/profesores' component={Profesores} />
           <Route exact path='/estudiantespages' component={EstudiantesPages}/>
           <Route exact path='/estudiantes' component={Estudiantes} />
+          <Route exact path= '/login1Pages'component={Login1Pages}/>
+          <Route exact path= '/login1'component={Login1}/>
         </Switch>
       </Layout>
     </BrowserRouter>

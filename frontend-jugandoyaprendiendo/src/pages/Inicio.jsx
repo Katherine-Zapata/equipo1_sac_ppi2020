@@ -16,7 +16,13 @@ class Inicio extends React.Component {
                             <a class="header__link" href="Registro">Registro</a>
                         </li>
                         <li>
+                            <a class="header__link" href="Registro1">Registro Estudiantes </a>
+                        </li>
+                        <li>
                             <a class="header__link" href="Login">Login</a>
+                        </li>
+                         <li>
+                            <a class="header__link" href="Login1">Login Estudiantes</a>
                         </li>
                         <li>
                             <a class="header__link" href="Explicación">Explicación</a>
