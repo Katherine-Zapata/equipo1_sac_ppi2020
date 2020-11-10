@@ -10,7 +10,7 @@ class Inicio extends React.Component {
                     <br />
                     <ul>
                         <li>
-                            <a class="header__link" href="Explicación">Bienvenida</a>
+                            <a class="header__link" href="Explicación">Explicación</a>
                         </li>
                         <li>
                             <a class="header__link" href="Registro">Registro</a>
@@ -25,7 +25,7 @@ class Inicio extends React.Component {
                             <a class="header__link" href="Login1">Login Estudiantes</a>
                         </li>
                         <li>
-                            <a class="header__link" href="Explicación">Explicación</a>
+                            <a class="header__link" href="Bienvenida">Bienvenida</a>
                         </li>
                         <li>
                             <a class="header__link" href="Ayuda">Ayuda</a>
@@ -36,9 +36,10 @@ class Inicio extends React.Component {
                     </ul>
                 </nav>
 
+                <br/>
                 <br />
-                <br />
-                <br /><h1>Inicio</h1>
+                <br/>
+                <h1>Inicio</h1>
                 <br />
                 <p>
                     <h2>¿Qué es Jugando y Aprendiendo?</h2>
