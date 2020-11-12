@@ -26,7 +26,7 @@ class Descarga extends React.Component {
                   Descarga el progreso de los estudiantes del grado Tercero
                   </p>
                 <cnter><button type="button" className="btn btn-secondary">
-                  Desacargar
+                  Descargar
                     </button></cnter>
               </div>
             </div>
