@@ -45,6 +45,9 @@ import ProfesoresPages from '../pages/ProfesoresPages';
 import Profesores from '../pages/Profesores';
 import EstudiantesPages from '../pages/EstudiantesPages';
 import Estudiantes from '../pages/Estudiantes';
+import PreguntasProfesoresPages from '../pages/PreguntasProfesoresPages'
+import PreguntasProfesores from '../pages/PreguntasProfesores';
+
 
 function Aplicacion() {
   return (
@@ -95,6 +98,8 @@ function Aplicacion() {
           <Route exact path='/estudiantes' component={Estudiantes} />
           <Route exact path= '/login1Pages'component={Login1Pages}/>
           <Route exact path= '/login1'component={Login1}/>
+          <Route exact path='/preguntasprofesorespages' component={PreguntasProfesoresPages}/>
+          <Route exact path='/preguntasprofesores' component={PreguntasProfesores} />
         </Switch>
       </Layout>
     </BrowserRouter>

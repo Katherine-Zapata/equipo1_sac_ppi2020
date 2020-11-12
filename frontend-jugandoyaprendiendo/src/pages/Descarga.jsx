@@ -45,16 +45,14 @@ class Descarga extends React.Component {
                   <p className="card-text">
                     Descarga el progreso de los estudiantes del grado Cuarto
                   </p>
-                  <center><button type="button" className="btn btn-secondary">
-                    Desacragar
+                  <center><button action="" type="button" className="btn btn-secondary">
+                    Descargar
                     </button></center>
                 </div>
               </div>
             </div>
-
+            
           <br />
-
-
           <h2>Quinto</h2>
           <div className="row">
             <div className="col-md-5">
