@@ -9,6 +9,10 @@ class PreguntasProfesores extends React.Component {
                         <li>
                            <a class="header__link" href="Inicio">Inicio</a>
                         </li>
+                        <li>
+                           <a class="header__link" href="Descarga">Descarga</a>
+                        
+                        </li>
                     </ul>
                 </nav>
                 <br/>
