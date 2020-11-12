@@ -20,7 +20,7 @@ body {
     border: 2px solid rgb(6, 122, 50);
     padding: 10px;
     width: 50%;
-    margin: 60px 0 0 350px;
+    margin: 60px 0 0 100px;
     text-align: center;
   }
   
@@ -29,11 +29,11 @@ body {
   }
 
   button{
-    background:black;
+    background:#51d1f6;
     color: white;
     text-decoration: center;
-    margin: 50px 0 0 70px;
-    border: 2px solid rgb(223, 65, 138);
+    margin: 50px 0 0 20px;
+    border: 2px solid (223, 65, 138);
   }
 
   ul {

@@ -1,6 +1,6 @@
 import React from "react";
 import '../Components/styles/Quiz.css';
-import 'bootstrap/dist/css/bootstrap.css'
+import { useMediaQuery } from 'react-responsive'
 import { Preguntas } from "./Preguntas3";
 
 class Quiz3 extends React.Component {

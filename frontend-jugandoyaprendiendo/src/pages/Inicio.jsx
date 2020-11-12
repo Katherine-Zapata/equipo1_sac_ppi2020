@@ -35,11 +35,10 @@ class Inicio extends React.Component {
                         </li>
                     </ul>
                 </nav>
-
                 <br/>
                 <br />
                 <br/>
-                <h1>Inicio</h1>
+               <h1>Inicio</h1>
                 <br />
                 <p>
                     <h2>¿Qué es Jugando y Aprendiendo?</h2>

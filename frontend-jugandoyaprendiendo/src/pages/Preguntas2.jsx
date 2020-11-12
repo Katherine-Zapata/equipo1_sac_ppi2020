@@ -1,7 +1,7 @@
 import React from 'react';
 
-class Preguntas2 extends React.Component {}
 
+class Preguntas2 extends React.Component {}
 export const Preguntas = [
             {
                 id: 0,

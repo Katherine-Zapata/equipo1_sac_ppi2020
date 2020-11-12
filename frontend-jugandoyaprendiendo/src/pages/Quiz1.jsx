@@ -1,8 +1,7 @@
 import React from 'react';
 import '../Components/styles/Quiz.css';
-import 'bootstrap/dist/css/bootstrap.css'
 import { Preguntas } from './Preguntas1';
-
+import 'bootstrap/dist/css/bootstrap.css'
 
 class Quiz1 extends React.Component {
 

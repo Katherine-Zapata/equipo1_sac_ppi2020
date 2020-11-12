@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 class Preguntas3 extends React.Component {}
 
 export const Preguntas = [

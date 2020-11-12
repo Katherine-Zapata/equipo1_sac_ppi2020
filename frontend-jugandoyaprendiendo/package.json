@@ -12,6 +12,7 @@
     "react-fa": "^5.0.0",
     "react-infinity-menu": "^4.0.0",
     "react-player": "^2.6.2",
+    "react-responsive": "^8.1.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "start": "^5.1.0"

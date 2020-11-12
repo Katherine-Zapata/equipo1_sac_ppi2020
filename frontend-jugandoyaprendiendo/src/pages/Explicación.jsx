@@ -35,7 +35,8 @@ class Explicación extends React.Component {
                     <br />
                     <br />
                     <p>
-                        <h1>Explicación de los temas</h1>
+                    <br/>
+                       <br/> <h1>Explicación de los temas</h1>
                         <br />
                         <h2>1. Historia de la tecnología</h2>
                         La historia de la tecnología es la herramienta de la invención de
