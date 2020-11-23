@@ -14,7 +14,7 @@ class Registro extends React.Component {
                     <br/>
                     <br/>
                     <form action="Login">
-                        <label for="Nombre">Nombre : (Campo Obligatorio)</label>
+                        <label for="Nombre">Nombre)</label>
                         <br />
                         <input type="text" name="Nombre" id="Nombre" rendonly="true" />
                         <br /><br />
@@ -22,15 +22,15 @@ class Registro extends React.Component {
                         <br />
                         <input type="text" name="Apellido" id="Apellido" rendonly="true" />
                         <br /><br />
-                        <label for="Correo Electrónico">Correo Electrónico: (Campo Obligatorio)</label>
+                        <label for="Correo Electrónico">Correo Electrónico</label>
                         <br />
-                        <input type="text" name="Correo Electrónico" id="Correo Electrónico" required />
+                        <input type="text" name="Correo Electrónico" id="Correo Electrónico" />
                         <br /><br />
-                        <label for="Contraseña Nueva">Contraseña Nueva (Ejemplo)</label>
+                        <label for="Contraseña Nueva">Contraseña Nueva </label>
                         <br />
-                        <input type="text" name="Contraseña Nueva" id="Contraseña Nueva" placeholder="Ejemplo : ******" />
+                        <input type="text" name="Contraseña Nueva" id="Contraseña Nueva" />
                         <br /><br />
-                        <label for="Sexo">Sexo: (Ejemplo)</label>
+                        <label for="Sexo">Sexo</label>
                         <br />
                         <input type="text" name="Sexo" id="Sexo" placeholder="Ejemplo: F o M" />
                         <br /><br />

@@ -13,8 +13,6 @@ import Bienvenida from '../pages/Bienvenida';
 import BienvenidaPages from '../pages/BienvenidaPages';
 import RegistroPages from '../pages/RegistroPages';
 import Registro from '../pages/Registro';
-import Registro1Pages from '../pages/Registro1Pages';
-import Registro1 from '../pages/Registro1';
 import DespedidaPages from '../pages/DespedidaPages';
 import Despedida from '../pages/Despedida';
 import Preguntas1Pages from '../pages/Preguntas1Pages';
@@ -31,8 +29,6 @@ import Quiz3Pages from '../pages/Quiz3Pages';
 import Quiz3 from '../pages/Quiz3';
 import LoginPages from '../pages/LoginPages';
 import Login from '../pages/Login';
-import Login1Pages from '../pages/Login1Pages';
-import Login1 from '../pages/Login1';
 import AyudaPages from '../pages/AyudaPages';
 import Ayuda from '../pages/Ayuda';
 import Ajustes1Pages from '../pages/Ajustes1Pages';
@@ -41,8 +37,6 @@ import Ajustes2Pages from '../pages/Ajustes2Pges';
 import Ajustes2 from '../pages/Ajustes2';
 import DescargaPages from '../pages/DescargarPages';
 import Descarga from '../pages/Descarga';
-import ProfesoresPages from '../pages/ProfesoresPages';
-import Profesores from '../pages/Profesores';
 import EstudiantesPages from '../pages/EstudiantesPages';
 import Estudiantes from '../pages/Estudiantes';
 import PreguntasProfesoresPages from '../pages/PreguntasProfesoresPages'
@@ -70,8 +64,6 @@ function Aplicacion() {
           <Route exact path='/bienvenida' component={Bienvenida} />
           <Route exact path='/registropages' component={RegistroPages} />
           <Route exact path='/registro' component={Registro} />
-           <Route exact path='/registro1pages' component={Registro1Pages} />
-          <Route exact path='/registro1' component={Registro1} />
           <Route exact path='/despedidapages' component={DespedidaPages} />
           <Route exact path='/despedida' component={Despedida} />
           <Route exact path='/preguntas1pages' component={Preguntas1Pages} />
@@ -92,12 +84,8 @@ function Aplicacion() {
           <Route exact path='/ayuda' component={Ayuda} />
           <Route exact path='/descargapages' component={DescargaPages}/>
           <Route exact path='/descarga' component={Descarga} />
-          <Route exact path='/profesorespages' component={ProfesoresPages}/>
-          <Route exact path='/profesores' component={Profesores} />
           <Route exact path='/estudiantespages' component={EstudiantesPages}/>
           <Route exact path='/estudiantes' component={Estudiantes} />
-          <Route exact path= '/login1Pages'component={Login1Pages}/>
-          <Route exact path= '/login1'component={Login1}/>
           <Route exact path='/preguntasprofesorespages' component={PreguntasProfesoresPages}/>
           <Route exact path='/preguntasprofesores' component={PreguntasProfesores} />
         </Switch>

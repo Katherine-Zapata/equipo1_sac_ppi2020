@@ -16,17 +16,18 @@ class Login extends React.Component {
                     <br/>
                     <br/>
                     <form action="PreguntasProfesores">
-                        <label for="Gmail">Gmail: (Campo Obligatorio)</label>
+                        <label for="Gmail">Gmail</label>
                         <br />
-                        <input type="text" name="Gmail" id="Gmail" required />
+                        <input type="text" name="Gmail" id="Gmail"  />
                         <br /><br />
-                        <label for="Contraseña">Contraseña: (Campo Obligatorio) </label>
+                        <label for="Contraseña">Contraseña </label>
                         <br />
-                        <input type="text" name="Contraseña" id="Contraseña" required />
+                        <input type="text" name="Contraseña" id="Contraseña" />
                         <br/>
                         <br/>
                         <input type="submit" value="Login" />
                     </form>
+                    <div></div>
                 </div>
             </div>
         )

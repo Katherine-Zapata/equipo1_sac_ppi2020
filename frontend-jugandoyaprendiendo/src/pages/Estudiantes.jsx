@@ -6,12 +6,6 @@ class Estudiantes extends React.Component {
             <div>
                 <nav>
                     <ul>
-                        <li>
-                            <a class="header__link" href="Registro">Registro</a>
-                        </li>
-                        <li>
-                            <a class="header__link" href="Login">Login</a>
-                        </li>
                         <a class="header__link" href="Explicación">Explicación</a>
                         <li>
                             <li>
