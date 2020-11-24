@@ -14,7 +14,7 @@ class Registro extends React.Component {
                     <br/>
                     <br/>
                     <form action="Login">
-                        <label for="Nombre">Nombre)</label>
+                        <label for="Nombre">Nombre</label>
                         <br />
                         <input type="text" name="Nombre" id="Nombre" rendonly="true" />
                         <br /><br />
@@ -34,7 +34,7 @@ class Registro extends React.Component {
                         <br />
                         <input type="text" name="Sexo" id="Sexo" placeholder="Ejemplo: F o M" />
                         <br /><br />
-                        <input type="submit" value="Sing Up" />
+                        <input type="submit" value="Registrate" />
                     </form>
                 </div>
             </div>

@@ -4,41 +4,10 @@ import '../Components/styles/Inicio.css'
 class Inicio extends React.Component {
     render() {
         return (
-
             <div>
-                <nav>
-                    <br />
-                    <ul>
-                        <li>
-                            <a class="header__link" href="Explicación">Explicación</a>
-                        </li>
-                        <li>
-                            <a class="header__link" href="Registro">Registro</a>
-                        </li>
-                        <li>
-                            <a class="header__link" href="Registro1">Registro Estudiantes </a>
-                        </li>
-                        <li>
-                            <a class="header__link" href="Login">Login</a>
-                        </li>
-                         <li>
-                            <a class="header__link" href="Login1">Login Estudiantes</a>
-                        </li>
-                        <li>
-                            <a class="header__link" href="Bienvenida">Bienvenida</a>
-                        </li>
-                        <li>
-                            <a class="header__link" href="Ayuda">Ayuda</a>
-                        </li>
-                        <li>
-                            <a class="header__link" href="Ajustes">Ajustes</a>
-                        </li>
-                    </ul>
-                </nav>
                 <br/>
                 <br />
                 <br/>
-               <h1>Inicio</h1>
                 <br />
                 <p>
                     <h2>¿Qué es Jugando y Aprendiendo?</h2>

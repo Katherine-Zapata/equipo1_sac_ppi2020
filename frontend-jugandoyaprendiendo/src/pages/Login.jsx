@@ -15,7 +15,7 @@ class Login extends React.Component {
                     <img src="https://img2.freepng.es/20180331/yjw/kisspng-computer-icons-user-profile-login-user-5abf1426c55235.9485280815224719748082.jpg" width="120" height="100"></img>
                     <br/>
                     <br/>
-                    <form action="PreguntasProfesores">
+                    <form >
                         <label for="Gmail">Gmail</label>
                         <br />
                         <input type="text" name="Gmail" id="Gmail"  />
@@ -25,7 +25,7 @@ class Login extends React.Component {
                         <input type="text" name="Contraseña" id="Contraseña" />
                         <br/>
                         <br/>
-                        <input type="submit" value="Login" />
+                        <input type="submit" value="Iniciar Sesión" />
                     </form>
                     <div></div>
                 </div>
