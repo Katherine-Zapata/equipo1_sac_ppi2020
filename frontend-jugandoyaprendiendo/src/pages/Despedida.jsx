@@ -6,20 +6,13 @@ class Despedida extends React.Component {
         return (
             <div className='Despedida'>
                 <div className='Despedida_header'>
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="Inicio">Inicio</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <br/>
-                    <br/>
-                        <br/><h2> ¡Gracias por jugar! </h2>
-                        <h2> Vuelve cuando quieras</h2>
-                        <button onClick="Inicio">Salir</button>
+                    <br />
+                    <h2> ¡Gracias por jugar! </h2>
+                    <h2> Vuelve cuando quieras</h2>
+                    <form action="Inicio">
+                        <input type="submit" value="Salir" />
+                    </form>
                 </div>
-
             </div>
         )
     }

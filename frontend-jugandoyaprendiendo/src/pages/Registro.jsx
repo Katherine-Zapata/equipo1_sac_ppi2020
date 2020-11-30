@@ -7,6 +7,9 @@ class Registro extends React.Component {
         return (
             <div className='Registro'>
                 <div className='container-fluid'>
+                <br/>
+                <br/>
+                <br/>
                     <h3>Crea una cuenta</h3>
                     <h3>¡Es fácil y rápido!</h3>
                     <br/>

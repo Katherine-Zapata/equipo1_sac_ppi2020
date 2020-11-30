@@ -4,11 +4,12 @@ import { Link } from 'react-router-dom'
 class InsigniaPages extends React.Component {
     render() {
         return (
-      <div className='Bienvenida'>
+            <div className='Bienvenida'>
                 <div className='container-fluid'>
                     <br />
                     <br />
-                    <h1>Bienvenid@s a Jugando y Aprendiendo.</h1>
+                    <br />
+                    <br /><h1>Bienvenid@s a Jugando y Aprendiendo.</h1>
 
                     <h2> ¿Estás listo para acompañarnos en este viaje tecnológico?</h2>
                     <br />
@@ -25,7 +26,7 @@ class InsigniaPages extends React.Component {
                     <a class="header__link" href="Login">Login</a>
                 </div>
             </div>
-    );
+        );
     }
 }
 

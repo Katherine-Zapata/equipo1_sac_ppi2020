@@ -49,4 +49,4 @@ router.delete("/estudiante/:id", (req, res) => {
     })
 })
   
-module.exports = routerk
+module.exports = router

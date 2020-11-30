@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
+import '../Components/styles/Explicacion.css';
 
 class Explicación extends React.Component {
     render() {
@@ -67,7 +68,7 @@ class Explicación extends React.Component {
                             exponentes tecnoológicos.
                             <br />
                         <br />
-                        <center><ReactPlayer url={require('../Components/exponentes.mp4')} controls /></center>
+                        <center><ReactPlayer url={require('../Components/exponentes.mp4')} controls width="50%" height="50%"/></center>
                     </p>
 
                 </div>

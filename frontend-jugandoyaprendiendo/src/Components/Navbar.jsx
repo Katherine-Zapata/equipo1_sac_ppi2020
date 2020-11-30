@@ -10,7 +10,7 @@ class Navbar extends React.Component {
                         <span className='font-weight-light'>
                             <nav>
                                 <ul>
-                                <li>
+                                    <li>
                                         <a class="header__link" href="Inicio">Inicio</a>
                                     </li>
                                     <li>
@@ -24,10 +24,14 @@ class Navbar extends React.Component {
                                     </li>
                                     <li>
                                         <a class="header__link" href="PreguntasProfesores">Profesores</a>
+                                        <br/>
                                     </li>
                                 </ul>
                             </nav>
                         </span>
+                        <br/>
+                        <br/>
+                        <br/>
                     </a>
                 </div>
             </div>

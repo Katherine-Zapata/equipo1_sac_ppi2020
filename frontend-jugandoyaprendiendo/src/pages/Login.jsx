@@ -8,8 +8,6 @@ class Login extends React.Component {
                 <div className='container-fluid'>
                     <br/>
                     <br/>
-                    <h3>¡Bienvenid@s Profesores!</h3>
-                    <br/>
                     <h3>Iniciar sesión</h3>
                     <br/>
                     <img src="https://img2.freepng.es/20180331/yjw/kisspng-computer-icons-user-profile-login-user-5abf1426c55235.9485280815224719748082.jpg" width="120" height="100"></img>
