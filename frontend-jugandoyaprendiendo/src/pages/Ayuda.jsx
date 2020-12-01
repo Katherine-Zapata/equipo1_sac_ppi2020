@@ -60,10 +60,13 @@ class Ayuda extends React.Component {
                                 </ul>
                             </p>
                         </div>
+                        <br/>
+                        <form action="Ajustes">
+                            <input type="submit" value="Siguiente" />
+                        </form>
+                        <br/>
                     </div>
-
                 </div>
-
             </div>
 
         );

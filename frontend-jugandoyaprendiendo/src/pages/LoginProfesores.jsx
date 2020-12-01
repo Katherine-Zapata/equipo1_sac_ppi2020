@@ -1,10 +1,10 @@
 import React from 'react';
 
-class Login extends React.Component {
+class LoginProfesores extends React.Component {
 
     render() {
         return (
-            <div className='Login estudiantes'>
+            <div className='Login profesores'>
                 <div className='container-fluid'>
                     <br/>
                     <br/>
@@ -13,7 +13,7 @@ class Login extends React.Component {
                     <img src="https://img2.freepng.es/20180331/yjw/kisspng-computer-icons-user-profile-login-user-5abf1426c55235.9485280815224719748082.jpg" width="120" height="100"></img>
                     <br/>
                     <br/>
-                    <form action="Estudiantes">
+                    <form action="PreguntasProfesores">
                         <label for="Gmail">Gmail</label>
                         <br />
                         <input type="text" name="Gmail" id="Gmail"  />
@@ -33,4 +33,4 @@ class Login extends React.Component {
 }
 
 
-export default Login;
+export default LoginProfesores;

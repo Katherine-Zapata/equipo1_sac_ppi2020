@@ -7,7 +7,7 @@ class PreguntasProfesores extends React.Component {
                 <div class="list-group">
                     <div class="p-3 mb-2 bg-#51d1f6 text-dark ">
                         <br />
-                        <h5 class="mb-1">Insertar Evaluaciones</h5>
+                        <h5 class="mb-1">Insertar evaluaciones</h5>
                         <p class="mb-1">Aquí podras agregar preguntas a las respectivas Evaluaciones: Historia, Herramientas y Exponentes tecnológicos.
                             </p>
                     </div>
@@ -26,6 +26,7 @@ class PreguntasProfesores extends React.Component {
                                 <div class="custom-control custom-checkbox mb-3">
                                     <input type="checkbox" class="custom-control-input" id="customControlValidation1" required />
                                     <label class="custom-control-label" for="customControlValidation1">
+                                       <input type="checkbox" class="custom-control-input" id="customControlValidation1" required />
                                         <textarea class="form-control is-invalid " id="validationTextarea" placeholder="" required></textarea>
                                     </label>
                                     <br />

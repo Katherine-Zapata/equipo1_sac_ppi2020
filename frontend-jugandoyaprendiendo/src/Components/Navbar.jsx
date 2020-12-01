@@ -11,30 +11,22 @@ class Navbar extends React.Component {
                             <nav>
                                 <ul>
                                     <li>
-                                        <a class="header__link" href="Inicio">Inicio</a>
-                                    </li>
-                                    <li>
                                         <a class="header__link" href="Registro">Registro</a>
                                     </li>
                                     <li>
-                                        <a class="header__link" href="Login">Login</a>
-                                    </li>
-                                    <li>
-                                        <a class="header__link" href="Estudiantes">Estudiantes</a>
-                                    </li>
-                                    <li>
-                                        <a class="header__link" href="PreguntasProfesores">Profesores</a>
-                                        <br/>
+                                        <a class="header__link" href="LoginProfesores">Login profesores</a>
+                                        <br />
+                                        <br />
                                     </li>
                                 </ul>
                             </nav>
                         </span>
-                        <br/>
-                        <br/>
-                        <br/>
                     </a>
+                    <br />
+                    <br />
+                    <br/>
                 </div>
-            </div>
+            </div >
         )
     }
 }

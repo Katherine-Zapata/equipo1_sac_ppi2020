@@ -41,7 +41,8 @@ import EstudiantesPages from '../pages/EstudiantesPages';
 import Estudiantes from '../pages/Estudiantes';
 import PreguntasProfesoresPages from '../pages/PreguntasProfesoresPages'
 import PreguntasProfesores from '../pages/PreguntasProfesores';
-
+import LoginProfesoresPages from '../pages/LoginProfesoresPages';
+import LoginProfesores from '../pages/LoginProfesores';
 
 function Aplicacion() {
   return (
@@ -88,6 +89,9 @@ function Aplicacion() {
           <Route exact path='/estudiantes' component={Estudiantes} />
           <Route exact path='/preguntasprofesorespages' component={PreguntasProfesoresPages}/>
           <Route exact path='/preguntasprofesores' component={PreguntasProfesores} />
+
+          <Route exact path='/loginprofesorespages' component={LoginProfesoresPages}/>
+          <Route exact path='/loginprofesores' component={LoginProfesores} />
         </Switch>
       </Layout>
     </BrowserRouter>

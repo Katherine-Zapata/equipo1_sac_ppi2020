@@ -5,16 +5,11 @@ import '../Components/styles/Explicacion.css';
 class Explicación extends React.Component {
     render() {
         return (
-
             <div className='Explicación'>
                 <div className='Explicación_header'>
-                    <br />
                     <nav>
                         <ul>
                             <li>
-                                <a class="header__link" href="Inicio">Inicio</a>
-                            </li>
-                            <li> 
                                 <a class="header__link" href="Quiz1">Quiz #1</a>
                             </li>
                             <li>
@@ -29,15 +24,13 @@ class Explicación extends React.Component {
                             <li>
                                 <a class="header__link" href="Ajustes">Ajustes</a>
                             </li>
-
                         </ul>
                     </nav>
                     <br />
                     <br />
                     <br />
                     <p>
-                    <br/>
-                       <br/> <h1>Explicación de los temas</h1>
+                        <h1>Explicación de los temas</h1>
                         <br />
                         <h2>1. Historia de la tecnología</h2>
                         La historia de la tecnología es la herramienta de la invención de
@@ -68,7 +61,7 @@ class Explicación extends React.Component {
                             exponentes tecnoológicos.
                             <br />
                         <br />
-                        <center><ReactPlayer url={require('../Components/exponentes.mp4')} controls width="50%" height="50%"/></center>
+                        <center><ReactPlayer url={require('../Components/exponentes.mp4')} controls width="50%" height="50%" /></center>
                     </p>
 
                 </div>

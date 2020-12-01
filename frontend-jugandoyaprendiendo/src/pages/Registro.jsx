@@ -39,6 +39,7 @@ class Registro extends React.Component {
                         <br /><br />
                         <input type="submit" value="Registrate" />
                     </form>
+                    <br/>
                 </div>
             </div>
             
