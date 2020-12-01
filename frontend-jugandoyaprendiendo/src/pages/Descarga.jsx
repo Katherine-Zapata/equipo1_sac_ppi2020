@@ -6,13 +6,6 @@ class Descarga extends React.Component {
     return (
       <div>
         <div className="Descarga">
-        <nav>
-          <ul>
-                <li>
-                 <a class="header__link" href="Inicio">Inicio</a>
-                  </li>
-          </ul>
-         </nav>
           <br />
           <h2>Tercero</h2>
           <div className="row">

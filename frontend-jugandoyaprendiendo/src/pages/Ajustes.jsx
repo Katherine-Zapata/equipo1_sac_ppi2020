@@ -5,30 +5,7 @@ class Ajustes extends React.Component {
         return (
             <div className='Ajustes'>
                 <div className='Ajuestes_header'>
-                    <nav>
-                        <br />
-                        <ul>
-                            <li>
-                                <a class="header__link" href="Inicio">Inicio</a>
-                            </li>
-                            <li>
-                                <a class="header__link" href="Explicación">Explicación</a>
-                            </li>
-                            <li>
-                                <a class="header__link" href="Ayuda">Ayuda</a>
-                            </li>
-                            <li>
-                                <a class="header__link" href="Ajustes1">Ajustes #1</a>
-                            </li>
-                            <li>
-                                <a class="header__link" href="Ajustes2">Ajustes #2</a>
-                            </li>
-                        </ul>
-                    </nav>
                     <p>
-                        <br />
-                        <br />
-                        <br/>
                         <h1>Ajustes</h1>
                         <br />
                         <img src="https://image.flaticon.com/icons/png/512/240/240847.png" width="100" height="100"></img>
@@ -52,6 +29,10 @@ class Ajustes extends React.Component {
                             <br /><br />
                             <input type="submit" value="Cambiar" />
                         </form>
+                        <form action="Ajustes1">
+                        <br/>
+                        <input type="submit" value="Siguiente" />
+                    </form>
 
                     </p>
                     <br />

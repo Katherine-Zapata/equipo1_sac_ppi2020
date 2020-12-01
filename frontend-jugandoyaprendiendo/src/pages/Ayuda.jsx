@@ -7,26 +7,6 @@ class Ayuda extends React.Component {
 
             <div>
                 <br />
-                <nav>
-<br/>
-                    <ul>
-                        <li>
-                            <a class="header__link" href="Inicio">Inicio</a>
-                        </li>
-                        <li>
-                            <a class="header__link" href="Ajustes">Ajustes</a>
-                        </li>
-                        <li>
-                            <a class="header__link" href="Ajustes1">Ajustes1</a>
-                        </li>
-                        <li>
-                            <a class="header__link" href="Ajustes2">Ajustes2</a>
-                        </li>
-
-                    </ul>
-                </nav>
-                <br />
-                <br />
                 <h2>Usar Jugando y Aprendiendo </h2>
                 <div className="row">
                     <div className="col-md-2">

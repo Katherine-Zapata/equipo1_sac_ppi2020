@@ -4,131 +4,127 @@ import { Preguntas } from './Preguntas2';
 import 'bootstrap/dist/css/bootstrap.css'
 
 class Quiz2 extends React.Component {
-  state = {
-    currentQuestion: 0,
-    myRespuesta: null,
-    opciones: [],
-    puntaje: 0,
-    disabled: true,
-    isEnd: false
-  };
+    state = {
+        currentQuestion: 0,
+        myRespuesta: null,
+        opciones: [],
+        puntaje: 0,
+        disabled: true,
+        isEnd: false
+    };
 
-  mostrarQuiz = () => {
-    this.setState(() => {
-      return {
-        pregunta: Preguntas[this.state.currentQuestion].pregunta,
-        respuesta: Preguntas[this.state.currentQuestion].respuesta,
-        opciones: Preguntas[this.state.currentQuestion].opciones
-      };
-    });
-  };
+    mostrarQuiz = () => {
+        this.setState(() => {
+            return {
+                pregunta: Preguntas[this.state.currentQuestion].pregunta,
+                respuesta: Preguntas[this.state.currentQuestion].respuesta,
+                opciones: Preguntas[this.state.currentQuestion].opciones
+            };
+        });
+    };
 
-  componentDidMount() {
-    this.mostrarQuiz();
-  }
-
-  nextQuestionHandler = () => {
-    const { myRespuesta, respuesta, puntaje } = this.state;
-
-    if (myRespuesta === respuesta) {
-      this.setState({
-        puntaje: puntaje + 1
-      });
+    componentDidMount() {
+        this.mostrarQuiz();
     }
 
-    this.setState({
-      currentQuestion: this.state.currentQuestion + 1
-    });
-    console.log(this.state.currentQuestion);
-  };
+    nextQuestionHandler = () => {
+        const { myRespuesta, respuesta, puntaje } = this.state;
 
-  componentDidUpdate(prevProps, prevState) {
-    if (this.state.currentQuestion !== prevState.currentQuestion) {
-      this.setState(() => {
-        return {
-          disabled: true,
-          pregunta: Preguntas[this.state.currentQuestion].pregunta,
-          opciones: Preguntas[this.state.currentQuestion].opciones,
-          respuesta: Preguntas[this.state.currentQuestion].respuesta
-        };
-      });
-    }
-  }
+        if (myRespuesta === respuesta) {
+            this.setState({
+                puntaje: puntaje + 1
+            });
+        }
 
-  checkAnswer = (respuesta) => {
-    this.setState({ myRespuesta: respuesta, disabled: false });
-  };
-  finishHandler = () => {
-    if (this.state.currentQuestion === Preguntas.length - 1) {
-      this.setState({
-        isEnd: true
-      });
-    }
-    if (this.state.myRespuesta === this.state.respuesta) {
-      this.setState({
-        puntaje: this.state.puntaje + 1
-      });
-    }
-  };
-  render() {
-    const { opciones, myRespuesta, currentQuestion, isEnd } = this.state;
+        this.setState({
+            currentQuestion: this.state.currentQuestion + 1
+        });
+        console.log(this.state.currentQuestion);
+    };
 
-    if (isEnd) {
-      return (
-        <div className="result">
-          <h3>Tu puntaje final es {this.state.puntaje} puntos </h3>
-        </div>
-      );
-    } else {
-      return (
-        <div className="App">
-          <h1>{this.state.pregunta} </h1>
-          <span>{`Preguntas ${currentQuestion}  de ${Preguntas.length - 1
-            } Restastes `}</span>
-          {opciones.map((option) => (
-            <p
-              key={option.id}
-              className={`ui floating message options
+    componentDidUpdate(prevProps, prevState) {
+        if (this.state.currentQuestion !== prevState.currentQuestion) {
+            this.setState(() => {
+                return {
+                    disabled: true,
+                    pregunta: Preguntas[this.state.currentQuestion].pregunta,
+                    opciones: Preguntas[this.state.currentQuestion].opciones,
+                    respuesta: Preguntas[this.state.currentQuestion].respuesta
+                };
+            });
+        }
+    }
+
+    checkAnswer = (respuesta) => {
+        this.setState({ myRespuesta: respuesta, disabled: false });
+    };
+    finishHandler = () => {
+        if (this.state.currentQuestion === Preguntas.length - 1) {
+            this.setState({
+                isEnd: true
+            });
+        }
+        if (this.state.myRespuesta === this.state.respuesta) {
+            this.setState({
+                puntaje: this.state.puntaje + 1
+            });
+        }
+    };
+    render() {
+        const { opciones, myRespuesta, currentQuestion, isEnd } = this.state;
+
+        if (isEnd) {
+            return (
+                <div className="result">
+                    <br />
+                    <h3>Tu puntaje final es {this.state.puntaje} puntos </h3>
+                    <form action="Quiz3">
+                        <input type="submit" value="Quiz #3" />
+                        <br />
+                        <br />
+                    </form>
+                    <form action="Inicio">
+                        <input type="submit" value="Salir" />
+                        <br />
+                    </form>
+                </div>
+            );
+        } else {
+            return (
+                <div className="App">
+                    <h1>{this.state.pregunta} </h1>
+                    <span>{`Preguntas ${currentQuestion}  de ${Preguntas.length - 1
+                        } Restastes `}</span>
+                    {opciones.map((option) => (
+                        <p
+                            key={option.id}
+                            className={`ui floating message options
                ${myRespuesta === option ? "selected" : null}
                `}
-              onClick={() => this.checkAnswer(option)}
-            >
-              {option}
-            </p>
-          ))}
-          {currentQuestion < Preguntas.length - 1 && (
-            <button
-              className="ui inverted button"
-              disabled={this.state.disabled}
-              onClick={this.nextQuestionHandler}
-            >
-              Siguiente
-            </button>
-          )}
-          {/* //adding a finish button */}
-          {currentQuestion === Preguntas.length - 1 && (
-            <button className="ui inverted button" onClick={this.finishHandler}>
-              Enviar Quiz
-            </button>
-          )}
-          <nav>
-
-            <ul>
-              <li>
-                <a class="header__link" href="Quiz1">Quiz #1</a>
-              </li>
-              <li>
-                <a class="header__link" href="Quiz3">Quiz #3</a>
-              </li>
-              <li>
-                <a class="header__link" href="Despedida">Despedida</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      );
+                            onClick={() => this.checkAnswer(option)}
+                        >
+                            {option}
+                        </p>
+                    ))}
+                    {currentQuestion < Preguntas.length - 1 && (
+                        <button
+                            className="ui inverted button"
+                            disabled={this.state.disabled}
+                            onClick={this.nextQuestionHandler}
+                        >
+                            Siguiente
+                        </button>
+                    )}
+                    {/* //adding a finish button */}
+                    {currentQuestion === Preguntas.length - 1 && (
+                        <button className="ui inverted button" onClick={this.finishHandler}>
+                            Enviar Quiz
+                        </button>
+                    )}
+                </div>
+            );
+        }
     }
-  }
 }
 
 export default Quiz2;

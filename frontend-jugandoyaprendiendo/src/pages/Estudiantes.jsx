@@ -18,9 +18,6 @@ class Estudiantes extends React.Component {
                                 <a class="header__link" href="Quiz3">Quiz #3</a>
                             </li>
                             <li>
-                                <a class="header__link" href="Despedida">Despedida</a>
-                            </li>
-                            <li>
                                 <a class="header__link" href="Ayuda">Ayuda</a>
                             </li>
                             <li>
