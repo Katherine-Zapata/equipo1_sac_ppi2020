@@ -12,6 +12,10 @@ app.use(express.static('public'));
 app.use("/api/", require("./routes/estudiante"))
 app.use("/api/", require("./routes/grado"))
 app.use("/api/", require("./routes/docente"))
+app.use("/api/", require("./routes/evaluacion_valor"))
+app.use("/api/", require("./routes/evalucion"))
+app.use("/api/", require("./routes/pregunta"))
+app.use("/api/", require("./routes/respuesta"))
 
 app.get("/", function (req, res) {
     res.send("Hola, bienvenidos al maravilloso mundo del aprendizaje")
