@@ -6,11 +6,7 @@ class InsigniaPages extends React.Component {
         return (
             <div className='Bienvenida'>
                 <div className='container-fluid'>
-                    <br />
-                    <br />
-                    <br />
-                    <br /><h1>Bienvenid@s a Jugando y Aprendiendo.</h1>
-
+                <h1>Bienvenid@s a Jugando y Aprendiendo.</h1>
                     <h2> ¿Estás listo para acompañarnos en este viaje tecnológico?</h2>
                     <br />
                     <img src="https://i.pinimg.com/originals/f6/d7/ef/f6d7ef4b5b015be7cf607e2087c0a244.png" width="200" height="200"></img>
